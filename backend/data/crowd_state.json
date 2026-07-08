@@ -1,0 +1,27 @@
+{
+  "last_updated": "2026-07-06T15:30:00Z",
+  "gate_congestion": {
+    "GATE_A": {"congestion_level": 0.35, "queue_wait_min": 4},
+    "GATE_B": {"congestion_level": 0.82, "queue_wait_min": 19},
+    "GATE_C": {"congestion_level": 0.55, "queue_wait_min": 9},
+    "GATE_D": {"congestion_level": 0.20, "queue_wait_min": 2}
+  },
+  "incidents": [
+    {
+      "id": "INC_1",
+      "location": "GATE_B",
+      "type": "overcrowding",
+      "severity": "high",
+      "reported_at": "2026-07-06T15:22:00Z",
+      "note": "Queue backing up toward East Concourse ramp."
+    },
+    {
+      "id": "INC_2",
+      "location": "Z3",
+      "type": "medical",
+      "severity": "medium",
+      "reported_at": "2026-07-06T15:10:00Z",
+      "note": "First-aid team dispatched to row 40."
+    }
+  ]
+}

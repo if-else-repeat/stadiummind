@@ -1,0 +1,37 @@
+{
+  "venue": "MetLife Stadium - FIFA World Cup 2026 (Sample Venue)",
+  "gates": [
+    {
+      "id": "GATE_A",
+      "name": "Gate A - North Plaza",
+      "serves_zones": ["Z1", "Z2"],
+      "wheelchair_accessible": true,
+      "sensory_friendly": false,
+      "base_walk_time_min": 6
+    },
+    {
+      "id": "GATE_B",
+      "name": "Gate B - East Concourse",
+      "serves_zones": ["Z3", "Z4"],
+      "wheelchair_accessible": true,
+      "sensory_friendly": true,
+      "base_walk_time_min": 9
+    },
+    {
+      "id": "GATE_C",
+      "name": "Gate C - South Terrace",
+      "serves_zones": ["Z1", "Z3"],
+      "wheelchair_accessible": false,
+      "sensory_friendly": false,
+      "base_walk_time_min": 5
+    },
+    {
+      "id": "GATE_D",
+      "name": "Gate D - West Family Entrance",
+      "serves_zones": ["Z2", "Z4"],
+      "wheelchair_accessible": true,
+      "sensory_friendly": true,
+      "base_walk_time_min": 11
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "faq_bags",
+    "keywords": ["bag", "backpack", "purse", "clear bag", "what can i bring"],
+    "answer": "Only clear bags smaller than 30x30x15 cm, or small clutch bags under 12x12 cm, are allowed inside the venue. All bags are subject to security search at entry."
+  },
+  {
+    "id": "faq_reentry",
+    "keywords": ["re-entry", "reentry", "leave and come back", "exit and return"],
+    "answer": "Re-entry is not permitted once you exit the stadium, except for medical emergencies coordinated with venue staff."
+  },
+  {
+    "id": "faq_lost_child",
+    "keywords": ["lost child", "missing kid", "child missing", "lost my son", "lost my daughter"],
+    "answer": "Immediately alert the nearest steward or volunteer. Every zone has a designated Family Reunification Point marked on the venue map, and announcements can be made over the PA system."
+  },
+  {
+    "id": "faq_prayer_room",
+    "keywords": ["prayer room", "quiet room", "namaz", "meditation space"],
+    "answer": "Multi-faith prayer and quiet rooms are located near Gate B (East Concourse) and Gate D (West Family Entrance)."
+  },
+  {
+    "id": "faq_accessible_seating",
+    "keywords": ["wheelchair", "accessible seating", "disability", "mobility"],
+    "answer": "Accessible seating and companion seating are available in Zones Z1, Z2, and Z4. Gates A, B, and D are wheelchair accessible with dedicated ramps and lifts."
+  },
+  {
+    "id": "faq_transport",
+    "keywords": ["parking", "shuttle", "metro", "train", "how do i get there", "transport"],
+    "answer": "Shuttle buses run every 10 minutes from the main transit hub. Rail service connects directly to the venue's East Concourse. Private vehicle parking is available at Lot 5, a 12-minute walk from Gate C."
+  },
+  {
+    "id": "faq_recycling",
+    "keywords": ["recycle", "recycling", "trash", "sustainability", "waste"],
+    "answer": "Recycling and compost stations are located at every concourse level. Please separate recyclables, compostables, and landfill waste at the marked bins."
+  },
+  {
+    "id": "faq_medical",
+    "keywords": ["first aid", "medical", "doctor", "injury", "sick", "unwell"],
+    "answer": "First-aid stations are located at every gate. For emergencies, alert the nearest steward, who can radio the on-site medical team directly."
+  }
+]

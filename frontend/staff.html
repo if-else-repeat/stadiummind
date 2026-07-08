@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StadiumMind — Staff Operations</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>Operations Console</h1>
+  <p>Live gate status &amp; AI-generated shift briefing</p>
+</header>
+
+<main class="container">
+
+  <div class="refresh-row">
+    <button type="button" id="refresh-btn">Refresh</button>
+    <span id="last-updated">Last updated: —</span>
+  </div>
+
+  <section aria-labelledby="briefing-heading">
+    <div class="briefing-card">
+      <h2 id="briefing-heading">Shift Briefing</h2>
+      <p id="briefing-text">Loading briefing…</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="gates-heading">
+    <h2 id="gates-heading" class="visually-hidden">Gate status</h2>
+    <div id="gate-grid" class="gate-grid" aria-live="polite"></div>
+  </section>
+
+  <section aria-labelledby="incidents-heading">
+    <h2 id="incidents-heading" style="font-family:'Oswald',sans-serif; font-size:0.95rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--amber);">
+      Active Incidents
+    </h2>
+    <ul id="incident-list" class="incident-list"></ul>
+  </section>
+
+  <p style="margin-top:20px;"><a class="nav-link" href="index.html">← Back to fan assistant</a></p>
+</main>
+
+<script src="js/format.js"></script>
+<script src="js/staff.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StadiumMind — Fan Assistant</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>StadiumMind</h1>
+  <p>Your FIFA World Cup 2026 venue assistant</p>
+</header>
+
+<main class="container">
+
+  <div class="controls-row" role="group" aria-label="Your preferences">
+    <label for="zone-select">
+      Zone
+      <select id="zone-select" aria-label="Your seating zone">
+        <option value="">Select…</option>
+        <option value="Z1">Z1 — Lower Bowl North</option>
+        <option value="Z2">Z2 — Lower Bowl South</option>
+        <option value="Z3">Z3 — Upper Tier East</option>
+        <option value="Z4">Z4 — Upper Tier West</option>
+      </select>
+    </label>
+
+    <label for="lang-select">
+      Language
+      <select id="lang-select" aria-label="Reply language">
+        <option value="English">English</option>
+        <option value="Spanish">Español</option>
+        <option value="French">Français</option>
+        <option value="Portuguese">Português</option>
+        <option value="Arabic">العربية</option>
+        <option value="Hindi">हिन्दी</option>
+      </select>
+    </label>
+
+    <label>
+      <input type="checkbox" id="wheelchair-check"> Wheelchair access
+    </label>
+    <label>
+      <input type="checkbox" id="sensory-check"> Sensory-friendly
+    </label>
+
+    <label for="transport-select">
+      Transport
+      <select id="transport-select" aria-label="How you're arriving">
+        <option value="">—</option>
+        <option value="train">Train</option>
+        <option value="shuttle">Shuttle</option>
+        <option value="car">Car</option>
+        <option value="bike">Bike</option>
+        <option value="walk">Walking</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="quick-actions">
+    <button type="button" data-quick="Which gate should I use?">Find my gate</button>
+    <button type="button" data-quick="Can I bring a bag inside?">Bag policy</button>
+    <button type="button" data-quick="Give me a sustainability tip">Eco tip</button>
+    <button type="button" data-quick="Where is the nearest first aid station?">First aid</button>
+  </div>
+
+  <div id="chat-log" class="chat-log" role="log" aria-live="polite" aria-label="Conversation">
+    <div class="msg bot">
+      Welcome! Ask me about gates, wait times, accessibility, transport, or venue policies — in your language.
+    </div>
+  </div>
+
+  <form id="chat-form" class="chat-input-row">
+    <label for="chat-input" class="visually-hidden">Type your message</label>
+    <input id="chat-input" type="text" autocomplete="off" placeholder="Ask StadiumMind anything…" maxlength="500" required>
+    <button type="submit">Send</button>
+  </form>
+
+  <p style="margin-top:20px;"><a class="nav-link" href="staff.html">Staff operations view →</a></p>
+</main>
+
+<script src="js/format.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

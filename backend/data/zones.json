@@ -1,0 +1,8 @@
+{
+  "zones": [
+    {"id": "Z1", "name": "Lower Bowl North", "capacity": 12000},
+    {"id": "Z2", "name": "Lower Bowl South", "capacity": 11500},
+    {"id": "Z3", "name": "Upper Tier East", "capacity": 15000},
+    {"id": "Z4", "name": "Upper Tier West", "capacity": 15500}
+  ]
+}
